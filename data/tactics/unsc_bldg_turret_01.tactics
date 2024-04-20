@@ -2,14 +2,14 @@
 <TacticData>
 	<Weapon>
 		<Name>LightCannon1</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>75</MaxRange>
-		<Accuracy>0.5</Accuracy>
+		<Accuracy>1.0</Accuracy>
 		<MaxDeviation>5</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
 		<MovingMaxDeviation>1.5</MovingMaxDeviation>
@@ -17,7 +17,7 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="GroundVehicle">8</TargetPriority>
 		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="Turretbuilding">3</TargetPriority>
@@ -26,22 +26,22 @@
 	</Weapon>
 	<Weapon>
 		<Name>LightCannon2</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>75</MaxRange>
-		<Accuracy>0.5</Accuracy>
-		<MaxDeviation>5</MaxDeviation>
+		<Accuracy>1.0</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
 		<MovingMaxDeviation>1.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="GroundVehicle">8</TargetPriority>
 		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="Turretbuilding">3</TargetPriority>
@@ -50,22 +50,22 @@
 	</Weapon>
 	<Weapon>
 		<Name>LightCannon3</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>750</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>75</MaxRange>
-		<Accuracy>0.5</Accuracy>
-		<MaxDeviation>5</MaxDeviation>
+		<Accuracy>1.0</Accuracy>
+		<MaxDeviation>2</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>
 		<MovingMaxDeviation>1.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="GroundVehicle">8</TargetPriority>
 		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="Turretbuilding">3</TargetPriority>

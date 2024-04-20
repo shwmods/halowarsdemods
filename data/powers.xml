@@ -91,11 +91,11 @@
 			<BaseDataLevel>
 				<Data type="protoobject" name="Projectile">pow_proj_cleansing_01</Data>
 				<Data type="float" name="MinBeamDistance">0</Data>
-				<Data type="float" name="MaxBeamDistance">70</Data>
+				<Data type="float" name="MaxBeamDistance">100</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
-				<Data type="float" name="SuppliesPerTick">10</Data>
+				<Data type="float" name="SuppliesPerTick">30</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">8</Data>
+				<Data type="float" name="MaxBeamSpeed">20</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Beam">pow_gp_cleansing_01</Data>
@@ -212,7 +212,7 @@
 			<CameraEffectOut>WavePowerToNormal</CameraEffectOut>
 			<BaseDataLevel>
 				<Data type="float" name="TickLength">0.200000003</Data>
-				<Data type="float" name="SuppliesPerTick">10</Data>
+				<Data type="float" name="SuppliesPerTick">30</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
 				<Data type="float" name="HintTime">1</Data>
 				<Data type="float" name="MinBallDistance">0</Data>
@@ -333,7 +333,7 @@
 				<Data type="sound" name="HudStopEnvSound">hud_carpetbomb_confirmed</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="int" name="MaxBombs">4</Data>
+				<Data type="int" name="MaxBombs">8</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
 				<Data type="float" name="BombSpacing">6</Data>
 				<Data type="float" name="LengthMultiplier">50</Data>
@@ -341,7 +341,7 @@
 				<Data type="float" name="WedgeMinOffset">2</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="int" name="MaxBombs">8</Data>
+				<Data type="int" name="MaxBombs">10</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
 				<Data type="float" name="BombSpacing">6</Data>
 				<Data type="float" name="LengthMultiplier">80</Data>
@@ -412,7 +412,7 @@
 				<Data type="sound" name="HudStopEnvSound">hud_carpetbomb_confirmed</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="int" name="MaxBombs">4</Data>
+				<Data type="int" name="MaxBombs">8</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
 				<Data type="float" name="BombSpacing">6</Data>
 				<Data type="float" name="LengthMultiplier">50</Data>
@@ -420,7 +420,7 @@
 				<Data type="float" name="WedgeMinOffset">2</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="int" name="MaxBombs">8</Data>
+				<Data type="int" name="MaxBombs">10</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
 				<Data type="float" name="BombSpacing">6</Data>
 				<Data type="float" name="LengthMultiplier">80</Data>

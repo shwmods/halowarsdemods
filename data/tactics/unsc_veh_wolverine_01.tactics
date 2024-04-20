@@ -15,13 +15,13 @@
 	</Weapon>
 	<Weapon>
 		<Name>UpgradedMissileLauncher</Name>
-		<AttackRate>6</AttackRate>
+		<AttackRate>12</AttackRate>
 		<DamagePerSecond>131.5</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>90</MaxRange>
+		<MaxRange>120</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<Dodgeable />
@@ -174,11 +174,11 @@
 			<TargetType>Flying</TargetType>
 			<Action>UpgradedMissileAttackAction</Action>
 		</TargetRule>
-		<TargetRule>
+		<!-- <TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>GrenadeLauncherAttackAction</Action>
-		</TargetRule>
+		</TargetRule> -->
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>

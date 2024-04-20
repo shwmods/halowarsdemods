@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaMortar</Name>
-		<AttackRate>0.25</AttackRate>
+		<AttackRate>1.0</AttackRate>
 		<DamagePerSecond>75.5</DamagePerSecond>
 		<WeaponType>Fire</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_01</Projectile>
@@ -23,8 +23,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>ShadePlasma1</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>500</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
@@ -46,8 +46,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>ShadePlasma2</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
@@ -69,8 +69,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>ShadePlasma3</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>187</DamagePerSecond>
+		<AttackRate>1.0</AttackRate>
+		<DamagePerSecond>750</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>

@@ -220,7 +220,7 @@
 		<RoleTextID>505</RoleTextID>
 		<BuildPoints>22.5</BuildPoints>
 		<Cost resourcetype="Supplies">300</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5100</SubSelectSort>
 		<LeashDistance>25</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -250,7 +250,7 @@
 		<RoleTextID>504</RoleTextID>
 		<BuildPoints>26</BuildPoints>
 		<Cost resourcetype="Supplies">350</Cost>
-		<Cost resourcetype="Power">3</Cost>
+		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5075</SubSelectSort>
 		<Birth anim0="Train" anim1="Train" anim2="Train" trainerAnim="TrainVehicles" spawnpoint="bone_spawnPoint01" endPoint="bone_endPoint01">Trained</Birth>
 		<LeashDistance>20</LeashDistance>

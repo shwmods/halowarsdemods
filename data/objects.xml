@@ -4450,7 +4450,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
-		<Rate Rate="Supplies">5</Rate>
+		<Rate Rate="Supplies">20</Rate>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>KBAware</Flag>
@@ -4522,7 +4522,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
-		<Rate Rate="Supplies">5</Rate>
+		<Rate Rate="Supplies">20</Rate>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>KBAware</Flag>
@@ -4887,16 +4887,16 @@
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>187</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>12</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turret_01.tactics</Tactics>
@@ -4960,16 +4960,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAI_01.tactics</Tactics>
@@ -5030,16 +5030,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>14</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAV_01.tactics</Tactics>
@@ -5100,16 +5100,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAA_01.tactics</Tactics>
@@ -7783,7 +7783,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
-		<Rate Rate="Supplies">5</Rate>
+		<Rate Rate="Supplies">20</Rate>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>KBAware</Flag>
@@ -7856,7 +7856,7 @@
 		<ObjectType>CanCryo</ObjectType>
 		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
 		<SurfaceType>Metal</SurfaceType>
-		<Rate Rate="Supplies">5</Rate>
+		<Rate Rate="Supplies">20</Rate>
 		<Socket Player="Player">BuildingSocket</Socket>
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>KBAware</Flag>
@@ -8017,16 +8017,16 @@
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>187</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>12</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="24" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="106" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="24" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="60" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="106" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>cov_bldg_turret_01.tactics</Tactics>
@@ -8088,8 +8088,8 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>12</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
@@ -8152,8 +8152,8 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
@@ -8216,8 +8216,8 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
@@ -14360,16 +14360,16 @@
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>187</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>12</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turret_01.tactics</Tactics>
@@ -14432,16 +14432,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAI_01.tactics</Tactics>
@@ -14501,16 +14501,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>14</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAV_01.tactics</Tactics>
@@ -14570,16 +14570,16 @@
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
 		<MovementType>Land</MovementType>
-		<Hitpoints>6218</Hitpoints>
-		<AttackGradeDPS>262</AttackGradeDPS>
+		<Hitpoints>15000</Hitpoints>
+		<AttackGradeDPS>400</AttackGradeDPS>
 		<CombatValue>14</CombatValue>
 		<LOS>80</LOS>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Bounty>12</Bounty>
-		<Veterancy Level="1" XP="36" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="162" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="1" XP="36" Damage="3" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="90" Damage="4" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="162" Damage="6" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Tactics>unsc_bldg_turretAA_01.tactics</Tactics>

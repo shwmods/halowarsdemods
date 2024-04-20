@@ -1411,7 +1411,7 @@
 		<Cost resourcetype="Supplies">400</Cost>
 		<SubSelectSort>2000</SubSelectSort>
 		<LeashDistance>80</LeashDistance>
-		<LeashDeadzone>40</LeashDeadzone>
+		<LeashDeadzone>80</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>40</AggroDistance>
 		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>

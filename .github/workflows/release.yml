@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Create New Mod Release
 
 # Controls when the workflow will run
 on:
@@ -12,8 +12,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "identify changed files"
+  identify-changed-files:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     
@@ -21,9 +21,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        #configures variables set in the imported action
+        with:
+          # Setting the fetch depth to 0 fetches all the commits in the repo - allowing us to select the commit with the vanilla files
+          fetch-depth: 0
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
+        # Get the names of all the files that have changed since the commit of the vanilla files
         run: |
           cd $GITHUB_WORKSPACE
           git diff --name-status 368c2a1603fb27eb65015ee6ecea1bceb3fcd46c HEAD | echo

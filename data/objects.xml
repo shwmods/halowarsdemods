@@ -6024,7 +6024,7 @@
 		<MovementType>Land</MovementType>
 		<Hardpoint name="Turret" autocenter="true" yawrate="45" pitchrate="60" pitchMinAngle="-5" pitchMaxAngle="90" yawattachment="turret" pitchattachment="cannon" />
 		<Hardpoint name="LockdownTurret" autocenter="true" yawrate="45" pitchrate="60" pitchMinAngle="-5" pitchMaxAngle="90" yawattachment="LockdownTurret" pitchattachment="LockdownCannon" />
-		<Velocity>13</Velocity>
+		<Velocity>6</Velocity>
 		<TurnRate>180</TurnRate>
 		<Hitpoints>8550</Hitpoints>
 		<AttackGradeDPS>190.9.0</AttackGradeDPS>

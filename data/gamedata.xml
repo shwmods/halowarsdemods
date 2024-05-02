@@ -11,10 +11,10 @@
 		<Rate>Power</Rate>
 		<Rate>LeaderPowerCharge</Rate>
 	</Rates>
-	<UnscSupplyPadBonus>0.75</UnscSupplyPadBonus>
-	<UnscSupplyPadBreakEvenPoint>6.5</UnscSupplyPadBreakEvenPoint>
-	<CovSupplyPadBonus>0.75</CovSupplyPadBonus>
-	<CovSupplyPadBreakEvenPoint>6.5</CovSupplyPadBreakEvenPoint>
+	<UnscSupplyPadBonus>1.0</UnscSupplyPadBonus>
+	<UnscSupplyPadBreakEvenPoint>20.0</UnscSupplyPadBreakEvenPoint>
+	<CovSupplyPadBonus>1.0</CovSupplyPadBonus>
+	<CovSupplyPadBreakEvenPoint>20.0</CovSupplyPadBreakEvenPoint>
 	<LeaderPowerChargeResource>LeaderPowerCharge</LeaderPowerChargeResource>
 	<LeaderPowerChargeRate>LeaderPowerCharge</LeaderPowerChargeRate>
 	<DifficultyEasy>0</DifficultyEasy>

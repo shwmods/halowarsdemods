@@ -1657,10 +1657,10 @@
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
@@ -1669,10 +1669,10 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
@@ -1681,10 +1681,10 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_marine_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverGrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_medic_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">

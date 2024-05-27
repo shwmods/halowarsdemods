@@ -5576,7 +5576,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>720</Hitpoints>
+		<Hitpoints>820</Hitpoints>
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>0.800000012</CombatValue>
 		<LOS>55</LOS>

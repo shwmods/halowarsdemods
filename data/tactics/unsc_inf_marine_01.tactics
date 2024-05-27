@@ -176,20 +176,10 @@
 		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
 		<Weapon>RocketWeapon</Weapon>
+		<BaseDPSWeapon>AssaultRifle</BaseDPSWeapon>
 		<MainAttack />
-		<DontLoopAttackAnim />
-		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>GrenadeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
-		<Weapon>Grenade</Weapon>
-		<MainAttack />
+		<StartDisabled/>
 		<DontLoopAttackAnim />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
 	</Action>
@@ -200,6 +190,17 @@
 		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>AssaultRifle</Weapon>
 		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -335,7 +336,8 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
 			<Action>RocketAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>

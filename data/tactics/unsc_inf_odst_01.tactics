@@ -71,6 +71,31 @@
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>280</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_grenade_01</Projectile>
+		<ImpactEffect size="Medium">tankshell</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>0.300000012</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.300000012</MovingAccuracy>
+		<MovingMaxDeviation>4</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>280</DamagePerSecond>
@@ -119,6 +144,16 @@
 		<MainAttack />
 	</Action>
 	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<MaxNumUnitsPerformAction>4</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
 		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
@@ -126,7 +161,7 @@
 		<Weapon>RocketWeapon</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
-		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+		<MaxNumUnitsPerformAction>3</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -246,12 +281,19 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>		
+		<TargetRule>
+			<Relation>Enemy</Relation>
 			<Action>ShotgunAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Action>RocketAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>

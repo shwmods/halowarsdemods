@@ -165,8 +165,8 @@
 		<String _locID="1013" category="Techs" subtitle="false">Adds a light auto-cannon to all Elephants. This turret is only operable when the Elephant is deployed.</String>
 		<String _locID="1014" category="Techs" subtitle="false">NEW BLOOD</String>
 		<String _locID="1015" category="Techs" subtitle="false">Adds another Marine to the squad. This increases the combat effectiveness of the squad.</String>
-		<String _locID="1016" category="Techs" subtitle="false">RPG ABILITY</String>
-		<String _locID="1017" category="Techs" subtitle="false">Marine active Grenade Ability upgraded to active Rocket Ability. Rockets can attack from a longer range than Grenades.</String>
+		<String _locID="1016" category="Techs" subtitle="false">RPG</String>
+		<String _locID="1017" category="Techs" subtitle="false">Marine squads are issued Rocket Launchers. Rockets are automatically deployed when attacking air units.</String>
 		<String _locID="1018" category="Techs" subtitle="false" />
 		<String _locID="1019" category="Techs" subtitle="false" />
 		<String _locID="1020" category="Techs" subtitle="false" />
@@ -196,7 +196,7 @@
 		<String _locID="1044" category="Techs" subtitle="false">Hawk 2</String>
 		<String _locID="1045" category="Techs" subtitle="false">Improves Hawk damage and defense.</String>
 		<String _locID="1046" category="Techs" subtitle="false">MEDIC</String>
-		<String _locID="1047" category="Techs" subtitle="false">Adds a Combat Medic to the squad. The Medic heals the squad after combat.</String>
+		<String _locID="1047" category="Techs" subtitle="false">Adds a Combat Medic to the squad. The Medic heals the squad after combat, and uses a Rocket Launcher instead of the Grenade ability.</String>
 		<String _locID="1048" category="Techs" subtitle="false">COBRA 1</String>
 		<String _locID="1049" category="Techs" subtitle="false">Improves Cobra damage and defense (for now).</String>
 		<String _locID="1050" category="Techs" subtitle="false">DEFLECTION PLATING</String>

@@ -5766,7 +5766,6 @@
 		<SubSelectSort>1000</SubSelectSort>
 		<SelectedRadiusX>1.29999995</SelectedRadiusX>
 		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
 		<Sound Type="Create">play_unsc_spartan_birth</Sound>
 		<Sound Type="Select">play_unsc_spartan_select</Sound>
 		<Sound Type="Death">play_unsc_spartan_vo_death</Sound>

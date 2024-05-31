@@ -123,6 +123,7 @@
 		<JoinType>Merge</JoinType>
 		<MergeType>Ground</MergeType>
 		<DamageModifiers damage="1.39999998" damageTaken="0.713999987" />
+		<StartDisabled/>
 	</Action>
 	<Action>
 		<Name>VehicleJoin</Name>
@@ -132,6 +133,7 @@
 		<ProtoObject>fx_hijacked</ProtoObject>
 		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="1" unjoinMaxDist="25">Board</JoinType>
 		<DamageModifiers damage="1.14999998" damageTaken="0.870000005" byCombatValue="false" />
+		<StartDisabled/>
 	</Action>
 	<Action>
 		<Name>VehicleTakeOver</Name>
@@ -155,6 +157,7 @@
 		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_cobra_01</Fatality>
 		<Fatality attacker="HijackGremlinStart" attackerEnd="HijackGremlinEnd" target="Idle" targetEnd="SpartanGremlinJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gremlin_01</Fatality>
 		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_grizzly_01</Fatality>
+		<StartDisabled/>
 	</Action>
 	<Action>
 		<Name>AircraftTakeOver</Name>
@@ -168,6 +171,7 @@
 		<Fatality attacker="HijackVampireStart" attackerEnd="HijackVampireEnd" target="Idle" targetEnd="SpartanVampireJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">cov_air_vampire_01</Fatality>
 		<Fatality attacker="HijackHawkStart" attackerEnd="HijackHawkEnd" target="Idle" targetEnd="SpartanHawkJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">unsc_air_hawk_01</Fatality>
 		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.800000012" toBoneRelative="true" air="true" airApexPercent="0.629999995" airHeight="8">unsc_air_hornet_01</Fatality>
+		<StartDisabled/>
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>

@@ -2802,6 +2802,12 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_02</Target>
+			</Effect>
 			<Effect type="TransformProtoUnit" FromType="unsc_inf_spartan_01" ToType="unsc_inf_spartan_02" />
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
@@ -2814,6 +2820,24 @@
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade1">
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="VehicleTakeOver" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="UpgradedVehicleTakeOver" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="VehicleJoin" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="UpgradedVehicleJoin" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AircraftTakeOver" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="UpgradedAircraftTakeOver" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2865,6 +2889,10 @@
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartan_01</Target>
+			</Effect>
+
 		</Effects>
 	</Tech>
 	<Tech name="unsc_spartan_upgrade3" type="Normal" Alpha="0">

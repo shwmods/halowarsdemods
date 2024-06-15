@@ -35,7 +35,7 @@
 		<StatsNameID>25678</StatsNameID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>502</RoleTextID>
-		<BuildPoints>19</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Cost resourcetype="Supplies">250</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>7000</SubSelectSort>
@@ -66,7 +66,7 @@
 		<StatsNameID>25678</StatsNameID>
 		<PrereqTextID>233</PrereqTextID>
 		<RoleTextID>502</RoleTextID>
-		<BuildPoints>19</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Cost resourcetype="Supplies">250</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>7000</SubSelectSort>
@@ -127,7 +127,7 @@
 		<RolloverTextID>23671</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>24068</RoleTextID>
-		<BuildPoints>40</BuildPoints>
+		<BuildPoints>25</BuildPoints>
 		<Cost resourcetype="Supplies">400</Cost>
 		<SubSelectSort>5201</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
@@ -157,7 +157,7 @@
 		<StatsNameID>25680</StatsNameID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>501</RoleTextID>
-		<BuildPoints>36</BuildPoints>
+		<BuildPoints>18</BuildPoints>
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5200</SubSelectSort>
@@ -188,7 +188,7 @@
 		<StatsNameID>25680</StatsNameID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>501</RoleTextID>
-		<BuildPoints>36</BuildPoints>
+		<BuildPoints>18</BuildPoints>
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5200</SubSelectSort>
@@ -218,7 +218,7 @@
 		<RolloverTextID>3023</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
 		<RoleTextID>505</RoleTextID>
-		<BuildPoints>22.5</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5100</SubSelectSort>
@@ -248,7 +248,7 @@
 		<RolloverTextID>3073</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
 		<RoleTextID>504</RoleTextID>
-		<BuildPoints>26</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Cost resourcetype="Supplies">350</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>5075</SubSelectSort>
@@ -278,7 +278,7 @@
 		<RolloverTextID>3017</RolloverTextID>
 		<PrereqTextID>230</PrereqTextID>
 		<RoleTextID>518</RoleTextID>
-		<BuildPoints>22</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Cost resourcetype="Supplies">150</Cost>
 		<SubSelectSort>500</SubSelectSort>
 		<Birth anim0="Train" trainerAnim="TrainVehicles" spawnpoint="bone_spawnPoint01" endPoint="bone_endPoint01">Trained</Birth>
@@ -386,7 +386,7 @@
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>23666</DisplayNameID>
 		<RolloverTextID>23667</RolloverTextID>
-		<BuildPoints>32</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<RoleTextID>506</RoleTextID>
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">1</Cost>
@@ -932,7 +932,7 @@
 		<RolloverTextID>3015</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>519</RoleTextID>
-		<BuildPoints>16</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>1000</SubSelectSort>

@@ -15,8 +15,6 @@
 		<AOEDistanceFactor>0.75</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -34,8 +32,6 @@
 		<AOEDistanceFactor>0.75</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -53,8 +49,6 @@
 		<AOEDistanceFactor>0.75</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -72,8 +66,6 @@
 		<AOEDistanceFactor>0.75</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>

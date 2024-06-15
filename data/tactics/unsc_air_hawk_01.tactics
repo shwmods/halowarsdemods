@@ -19,9 +19,8 @@
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>200</PhysicsForceMin>
 		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Dodgeable />
@@ -37,15 +36,15 @@
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<Hardpoint>MGTurretL</Hardpoint>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
@@ -59,15 +58,15 @@
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<Hardpoint>MGTurretR</Hardpoint>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Infantry">6</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
@@ -81,7 +80,7 @@
 		<Hardpoint>ChaffTurret</Hardpoint>
 		<MaxVelocityLead>5</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.3</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 	</Weapon>
 	<Action>

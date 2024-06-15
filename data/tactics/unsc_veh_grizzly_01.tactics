@@ -2,36 +2,34 @@
 <TacticData>
 	<Weapon>
 		<Name>Machinegun</Name>
-		<AttackRate>0.25</AttackRate>
+		<AttackRate>0.75</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.4</Accuracy>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.2</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="Flying">5</TargetPriority>
 		<TargetPriority type="Infantry">0</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>MGTurret</Hardpoint>
 	</Weapon>
 	<Weapon>
 		<Name>Cannon</Name>
-		<AttackRate>3</AttackRate>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">tankshell_02</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
-		<Accuracy>0.7</Accuracy>
+		<Accuracy>0.9</Accuracy>
 		<MaxDeviation>5</MaxDeviation>
 		<MovingAccuracy>0.400000006</MovingAccuracy>
 		<MovingMaxDeviation>7</MovingMaxDeviation>
@@ -51,7 +49,6 @@
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Infantry">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Dodgeable />
 		<Deflectable />

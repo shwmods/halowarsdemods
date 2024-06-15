@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Machinegun</Name>
-		<AttackRate>0.25</AttackRate>
+		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
@@ -11,20 +11,18 @@
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
+		<MovingAccuracy>0.1000000007</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Flying">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">0</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>MGTurret</Hardpoint>
 	</Weapon>
 	<Weapon>
 		<Name>Cannon</Name>
-		<AttackRate>3</AttackRate>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
@@ -51,7 +49,6 @@
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Infantry">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Dodgeable />
 		<Deflectable />

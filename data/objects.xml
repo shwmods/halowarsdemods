@@ -5167,10 +5167,10 @@
 		<DisplayNameID>10048</DisplayNameID>
 		<RolloverTextID>10049</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>12</Velocity>
+		<Velocity>15</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1292</Hitpoints>
+		<Hitpoints>2000</Hitpoints>
 		<AttackGradeDPS>30</AttackGradeDPS>
 		<CombatValue>2</CombatValue>
 		<LOS>55</LOS>

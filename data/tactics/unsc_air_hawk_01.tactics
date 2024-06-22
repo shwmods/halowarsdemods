@@ -154,6 +154,10 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 			<Action>LaserAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

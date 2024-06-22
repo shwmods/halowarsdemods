@@ -79,7 +79,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>WarthogRam</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>40</AOERadius>

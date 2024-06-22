@@ -12,6 +12,7 @@
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.1000000007</MovingAccuracy>
+		<MovingAccuracy>0.1000000007</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
@@ -22,7 +23,6 @@
 	</Weapon>
 	<Weapon>
 		<Name>Cannon</Name>
-		<AttackRate>4</AttackRate>
 		<AttackRate>4</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>

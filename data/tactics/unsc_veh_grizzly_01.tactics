@@ -10,6 +10,7 @@
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.5</Accuracy>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.2</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
@@ -23,12 +24,14 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>4</AttackRate>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">tankshell_02</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
+		<Accuracy>0.9</Accuracy>
 		<Accuracy>0.9</Accuracy>
 		<MaxDeviation>5</MaxDeviation>
 		<MovingAccuracy>0.400000006</MovingAccuracy>

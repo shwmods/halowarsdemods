@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Machinegun</Name>
-		<AttackRate>0.75</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>

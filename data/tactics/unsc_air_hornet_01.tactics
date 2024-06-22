@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher</Name>
 		<AttackRate>10</AttackRate>
-		<DamagePerSecond>70.1500015</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -42,15 +42,15 @@
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>LeftWingman</Name>
-		<DamagePerSecond>17.5</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -75,7 +75,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>RightWingMan</Name>
-		<DamagePerSecond>17.5</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
@@ -113,6 +113,10 @@
 		<Name>RocketLauncherAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
+		<TargetType>GroundVehicle</TargetType>
+		<TargetType>Flying</TargetType>
+		<TargetType>Building</TargetType>
+		<TargetType>TurretBuilding</TargetType>
 		<Weapon>RocketLauncher</Weapon>
 		<MainAttack />
 	</Action>
@@ -128,6 +132,10 @@
 		<ActionType>SecondaryTurretAttack</ActionType>
 		<Anim>RocketAttackLeft</Anim>
 		<Weapon>LeftWingman</Weapon>
+		<TargetType>GroundVehicle</TargetType>
+		<TargetType>Flying</TargetType>
+		<TargetType>Building</TargetType>
+		<TargetType>TurretBuilding</TargetType>
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -135,6 +143,10 @@
 		<ActionType>SecondaryTurretAttack</ActionType>
 		<Anim>RocketAttackRight</Anim>
 		<Weapon>RightWingMan</Weapon>
+		<TargetType>GroundVehicle</TargetType>
+		<TargetType>Flying</TargetType>
+		<TargetType>Building</TargetType>
+		<TargetType>TurretBuilding</TargetType>
 		<StartDisabled />
 	</Action>
 	<Action>

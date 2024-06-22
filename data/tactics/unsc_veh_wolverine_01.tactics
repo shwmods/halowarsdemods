@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>MissileLauncher</Name>
-		<AttackRate>6</AttackRate>
+		<AttackRate>9</AttackRate>
 		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
@@ -15,7 +15,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>UpgradedMissileLauncher</Name>
-		<AttackRate>12</AttackRate>
+		<AttackRate>18</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>

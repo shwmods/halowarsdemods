@@ -23,6 +23,7 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>4</AttackRate>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>136.350006</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>

@@ -412,15 +412,15 @@
 				<Data type="sound" name="HudStopEnvSound">hud_carpetbomb_confirmed</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="int" name="MaxBombs">8</Data>
+				<Data type="int" name="MaxBombs">10</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
-				<Data type="float" name="BombSpacing">6</Data>
+				<Data type="float" name="BombSpacing">4</Data>
 				<Data type="float" name="LengthMultiplier">50</Data>
 				<Data type="float" name="WedgeLengthMultiplier">2</Data>
 				<Data type="float" name="WedgeMinOffset">2</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="int" name="MaxBombs">10</Data>
+				<Data type="int" name="MaxBombs">12</Data>
 				<Data type="float" name="MaxBombOffset">8</Data>
 				<Data type="float" name="BombSpacing">6</Data>
 				<Data type="float" name="LengthMultiplier">80</Data>
@@ -428,7 +428,7 @@
 				<Data type="float" name="WedgeMinOffset">3</Data>
 			</DataLevel>
 			<DataLevel level="2">
-				<Data type="int" name="MaxBombs">12</Data>
+				<Data type="int" name="MaxBombs">18</Data>
 				<Data type="float" name="MaxBombOffset">16</Data>
 				<Data type="float" name="BombSpacing">14</Data>
 				<Data type="float" name="LengthMultiplier">80</Data>
@@ -436,7 +436,7 @@
 				<Data type="float" name="WedgeMinOffset">4</Data>
 			</DataLevel>
 			<DataLevel level="3">
-				<Data type="int" name="MaxBombs">16</Data>
+				<Data type="int" name="MaxBombs">24</Data>
 				<Data type="float" name="MaxBombOffset">16</Data>
 				<Data type="float" name="BombSpacing">14</Data>
 				<Data type="float" name="LengthMultiplier">120</Data>
@@ -471,7 +471,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<BaseDataLevel>
 				<Data type="protoobject" name="CryoObject">fx_cryoBomb</Data>
-				<Data type="float" name="CryoRadius">45</Data>
+				<Data type="float" name="CryoRadius">60</Data>
 				<Data type="objecttype" name="FilterType">CanCryo</Data>
 				<Data type="float" name="TickDuration">0.0549999997</Data>
 				<Data type="float" name="EffectStartTime">2.8499999</Data>
@@ -493,19 +493,19 @@
 				<Data type="float" name="MinCryoFalloff">0.25</Data>
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="float" name="MaxKillHp">12000</Data>
+				<Data type="float" name="MaxKillHp">20000</Data>
 				<Data type="float" name="FrozenThawTime">9</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="float" name="MaxKillHp">24000</Data>
+				<Data type="float" name="MaxKillHp">40000</Data>
 				<Data type="float" name="FrozenThawTime">12</Data>
 			</DataLevel>
 			<DataLevel level="2">
-				<Data type="float" name="MaxKillHp">36000</Data>
+				<Data type="float" name="MaxKillHp">60000</Data>
 				<Data type="float" name="FrozenThawTime">15</Data>
 			</DataLevel>
 			<DataLevel level="3">
-				<Data type="float" name="MaxKillHp">48000</Data>
+				<Data type="float" name="MaxKillHp">80000</Data>
 				<Data type="float" name="FrozenThawTime">18</Data>
 			</DataLevel>
 		</Attributes>
@@ -537,13 +537,13 @@
 			<DataLevel level="0">
 				<Data type="protoobject" name="RepairObject">fx_repairPower</Data>
 				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
-				<Data type="float" name="RepairRadius">35</Data>
+				<Data type="float" name="RepairRadius">50</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="TickDuration">0.125</Data>
 				<Data type="int" name="NumTicks">200</Data>
-				<Data type="float" name="RepairCombatValuePerTick">0.100000001</Data>
+				<Data type="float" name="RepairCombatValuePerTick">0.2</Data>
 				<Data type="bool" name="SpreadAmongSquads">true</Data>
-				<Data type="float" name="CooldownTimeIfDamaged">5</Data>
+				<Data type="float" name="CooldownTimeIfDamaged">2</Data>
 				<Data type="bool" name="AllowReinforce">true</Data>
 				<Data type="bool" name="IgnorePlacement">false</Data>
 				<Data type="bool" name="HealAny">false</Data>
@@ -583,7 +583,7 @@
 				<Data type="protoobject" name="PulseObject">fx_disruptionRing</Data>
 				<Data type="protoobject" name="StrikeObject">fx_disruptionLightningBeam</Data>
 				<Data type="float" name="PulseSpacing">0.25</Data>
-				<Data type="float" name="DisruptionRadius">70</Data>
+				<Data type="float" name="DisruptionRadius">90</Data>
 				<Data type="float" name="DisruptionTimeSec">60</Data>
 				<Data type="float" name="DisruptionStartTime">2.5999999</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_disruption_vo_ready</Data>
@@ -605,7 +605,7 @@
 	<Power name="UnscOdstDrop">
 		<Attributes>
 			<PowerType>ODST</PowerType>
-			<Cost Supplies="400" Power="4" />
+			<Cost Supplies="300" Power="4" />
 			<Pop type="Unit">1</Pop>
 			<AutoRecharge>10000</AutoRecharge>
 			<SequentialRecharge />
@@ -681,7 +681,7 @@
 				<Data type="float" name="YOffset">35</Data>
 				<Data type="float" name="ZOffset">15</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="ShotInterval">0</Data>
+				<Data type="float" name="ShotInterval">1000</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_mac_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_mac_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_mac_vo_fire</Data>

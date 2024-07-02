@@ -212,6 +212,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
+			<TargetType>Infantry</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

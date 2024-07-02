@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Laser</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>70.1500015</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_hawkLaser_01</Projectile>
 		<ImpactEffect size="Medium">empgrenade</ImpactEffect>
@@ -42,11 +42,7 @@
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>RightMachinegun</Name>
@@ -64,11 +60,7 @@
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>ChaffWeapon</Name>
@@ -92,17 +84,19 @@
 	</Action>
 	<Action>
 		<Name>LeftMachinegunAttackAction</Name>
-		<ActionType>SecondaryTurretAttack</ActionType>
+		<ActionType>RangedAttack</ActionType>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
 		<Anim>MachinegunAttackL</Anim>
 		<Weapon>LeftMachinegun</Weapon>
+		<MainAttack />
 	</Action>
 	<Action>
 		<Name>RightMachinegunAttackAction</Name>
-		<ActionType>SecondaryTurretAttack</ActionType>
+		<ActionType>RangedAttack</ActionType>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
 		<Anim>MachinegunAttackR</Anim>
 		<Weapon>RightMachinegun</Weapon>
+		<MainAttack />
 	</Action>
 	<Action>
 		<Name>AvoidCollisionAir</Name>
@@ -163,10 +157,12 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LeftMachinegunAttackAction</Action>
+			<TargetType>Infantry</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RightMachinegunAttackAction</Action>
+			<TargetType>Infantry</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

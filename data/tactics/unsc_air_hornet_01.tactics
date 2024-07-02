@@ -122,10 +122,11 @@
 	</Action>
 	<Action>
 		<Name>MachinegunAttackAction</Name>
-		<ActionType>SecondaryTurretAttack</ActionType>
+		<ActionType>RangedAttack</ActionType>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
 		<Anim>MachinegunAttack</Anim>
 		<Weapon>Machinegun</Weapon>
+		<MainAttack />
 	</Action>
 	<Action>
 		<Name>LeftWingmanAttackAction</Name>
@@ -203,6 +204,10 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RocketLauncherAttackAction</Action>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
@@ -211,10 +216,18 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LeftWingmanAttackAction</Action>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RightWingmanAttackAction</Action>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

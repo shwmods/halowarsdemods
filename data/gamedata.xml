@@ -200,7 +200,7 @@
 		<Good>3</Good>
 		<Extreme>4</Extreme>
 	</GoodAgainstReticle>
-	<MaxNumCorpses>75</MaxNumCorpses>
+	<MaxNumCorpses>30</MaxNumCorpses>
 	<MaxCorpseDisposalCount>10</MaxCorpseDisposalCount>
 	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
@@ -238,7 +238,7 @@
 		<BurningEffectLimitEntry Limit="3">Aircraft</BurningEffectLimitEntry>
 		<BurningEffectLimitEntry Limit="5">Building</BurningEffectLimitEntry>
 	</BurningEffectLimits>
-	<BaseRebuildTimer>30</BaseRebuildTimer>
+	<BaseRebuildTimer>15</BaseRebuildTimer>
 	<ObjectiveArrowRadialOffset>35</ObjectiveArrowRadialOffset>
 	<ObjectiveArrowSwitchOffset>30</ObjectiveArrowSwitchOffset>
 	<ObjectiveArrowMaxIndex>6</ObjectiveArrowMaxIndex>

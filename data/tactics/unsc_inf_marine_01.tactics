@@ -3,13 +3,13 @@
 	<Weapon>
 		<Name>InCoverAssaultRifle</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>22</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -25,7 +25,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>InCoverGrenade</Name>
-		<DamagePerSecond>14</DamagePerSecond>
+		<DamagePerSecond>25</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">tankshell</ImpactEffect>
@@ -52,12 +52,12 @@
 	</Weapon>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
-		<DamagePerSecond>14</DamagePerSecond>
+		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>100</Accuracy>
 		<AOERadius>4</AOERadius>
 		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>

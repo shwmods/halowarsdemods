@@ -8,8 +8,8 @@
 		<Projectile>fx_proj_machinegun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
-		<MaxRange>45</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -30,8 +30,8 @@
 		<Projectile>fx_proj_machinegun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
-		<MaxRange>45</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -52,8 +52,8 @@
 		<Projectile>fx_proj_machinegun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
-		<MaxRange>45</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.0500000007</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
@@ -74,7 +74,7 @@
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
+		<MaxRange>80</MaxRange>
 		<Accuracy>0.5</Accuracy>
 		<MaxDeviation>5</MaxDeviation>
 		<MovingAccuracy>0</MovingAccuracy>

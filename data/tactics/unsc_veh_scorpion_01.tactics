@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.75</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
@@ -23,8 +23,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>Cannon</Name>
-		<AttackRate>4</AttackRate>
-		<DamagePerSecond>136.350006</DamagePerSecond>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -86,18 +86,19 @@
 		<Dodgeable />Q</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>
-		<ActionType>SlaveTurretAttack</ActionType>
+		<ActionType>RangedAttack</ActionType>
 		<Anim>CannonAttack</Anim>
 		<Weapon>Cannon</Weapon>
+		<MainAttack />
 	</Action>
 	<Action>
 		<Name>MachinegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MachinegunAttack</Anim>
 		<Weapon>Machinegun</Weapon>
-		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
 		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
 		<PersistBetweenOpps />
+		<FindBetterAction />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -154,6 +155,15 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Flying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CannonAttackAction</Action>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

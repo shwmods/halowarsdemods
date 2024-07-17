@@ -16,7 +16,7 @@
 	<Weapon>
 		<Name>UpgradedMissileLauncher</Name>
 		<AttackRate>18</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>

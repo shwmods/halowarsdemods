@@ -5573,10 +5573,10 @@
 		<DisplayNameID>10060</DisplayNameID>
 		<RolloverTextID>10061</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>12</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>820</Hitpoints>
+		<Hitpoints>1000</Hitpoints>
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>0.800000012</CombatValue>
 		<LOS>55</LOS>
@@ -5655,10 +5655,10 @@
 		<DisplayNameID>10048</DisplayNameID>
 		<RolloverTextID>10049</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>12</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>720</Hitpoints>
+		<Hitpoints>1000</Hitpoints>
 		<AttackGradeDPS>15</AttackGradeDPS>
 		<CombatValue>0.00999999978</CombatValue>
 		<LOS>55</LOS>
@@ -6281,7 +6281,7 @@
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="empgun" pitchattachment="empgun" />
 		<Velocity>18</Velocity>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>3450</Hitpoints>
+		<Hitpoints>2000</Hitpoints>
 		<AttackGradeDPS>136.800003</AttackGradeDPS>
 		<CombatValue>8</CombatValue>
 		<Veterancy Level="1" XP="16" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -6290,7 +6290,7 @@
 		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
 		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
-		<LOS>75</LOS>
+		<LOS>110</LOS>
 		<Pop Type="Unit">1</Pop>
 		<Bounty>8</Bounty>
 		<AmmoMax>800</AmmoMax>
@@ -6455,7 +6455,7 @@
 		<Hardpoint name="LockdownTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawattachment="LockdownTurret" pitchattachment="LockdownCannon" />
 		<Velocity>9</Velocity>
 		<TurnRate>60</TurnRate>
-		<Hitpoints>10000</Hitpoints>
+		<Hitpoints>15000</Hitpoints>
 		<LOS>55</LOS>
 		<Pop Type="Unit">2</Pop>
 		<CombatValue>16</CombatValue>
@@ -6620,7 +6620,7 @@
 		<Hardpoint name="MGTurret" autocenter="true" yawrate="120" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="MG" />
 		<Velocity>20</Velocity>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>11807</Hitpoints>
+		<Hitpoints>15000</Hitpoints>
 		<AttackGradeDPS>272.700012</AttackGradeDPS>
 		<CombatValue>20</CombatValue>
 		<LOS>55</LOS>
@@ -6788,7 +6788,7 @@
 		<Hitpoints>4391</Hitpoints>
 		<AttackGradeDPS>165</AttackGradeDPS>
 		<CombatValue>10</CombatValue>
-		<LOS>55</LOS>
+		<LOS>75</LOS>
 		<Pop Type="Unit">2</Pop>
 		<Bounty>10</Bounty>
 		<Veterancy Level="1" XP="20" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -6870,10 +6870,10 @@
 		<Velocity>30</Velocity>
 		<ReverseSpeed>15.0f</ReverseSpeed>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>4391</Hitpoints>
+		<Hitpoints>3000</Hitpoints>
 		<AttackGradeDPS>165</AttackGradeDPS>
 		<CombatValue>10</CombatValue>
-		<LOS>55</LOS>
+		<LOS>75</LOS>
 		<Pop Type="Unit">2</Pop>
 		<Bounty>10</Bounty>
 		<Veterancy Level="1" XP="20" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />

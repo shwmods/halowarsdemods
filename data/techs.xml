@@ -5512,9 +5512,9 @@
 			<Effect type="GodPower" amount="0">UnscOdstDrop</Effect>
 			<Effect type="GodPower" amount="1">UnscLeaderOrbitalBombard</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
 			</Effect>
-			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_01" ToType="unsc_bldg_command_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_bldg_command_01" ToType="unsc_bldg_command_03" />
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_odst_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
 			</Effect>

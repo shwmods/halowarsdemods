@@ -6281,7 +6281,7 @@
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="empgun" pitchattachment="empgun" />
 		<Velocity>18</Velocity>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>2000</Hitpoints>
+		<Hitpoints>1200</Hitpoints>
 		<AttackGradeDPS>136.800003</AttackGradeDPS>
 		<CombatValue>8</CombatValue>
 		<Veterancy Level="1" XP="16" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
@@ -6364,7 +6364,7 @@
 		<Hardpoint name="rightMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="rightMG" />
 		<Velocity>9</Velocity>
 		<TurnRate>60</TurnRate>
-		<Hitpoints>10000</Hitpoints>
+		<Hitpoints>15000</Hitpoints>
 		<LOS>55</LOS>
 		<Pop Type="Unit">2</Pop>
 		<CombatValue>16</CombatValue>
@@ -6455,7 +6455,7 @@
 		<Hardpoint name="LockdownTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawattachment="LockdownTurret" pitchattachment="LockdownCannon" />
 		<Velocity>9</Velocity>
 		<TurnRate>60</TurnRate>
-		<Hitpoints>15000</Hitpoints>
+		<Hitpoints>20000</Hitpoints>
 		<LOS>55</LOS>
 		<Pop Type="Unit">2</Pop>
 		<CombatValue>16</CombatValue>

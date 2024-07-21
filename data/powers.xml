@@ -50,8 +50,8 @@
 				<Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
 				<Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
 				<Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
-				<Data type="int" name="MaxGroundVehicles">3</Data>
-				<Data type="int" name="MaxInfantryUnits">6</Data>
+				<Data type="int" name="MaxGroundVehicles">6</Data>
+				<Data type="int" name="MaxInfantryUnits">12</Data>
 				<Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
 				<Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
 				<Data type="float" name="MinTransportDistance">45</Data>
@@ -93,7 +93,7 @@
 				<Data type="float" name="MinBeamDistance">0</Data>
 				<Data type="float" name="MaxBeamDistance">100</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
-				<Data type="float" name="SuppliesPerTick">30</Data>
+				<Data type="float" name="SuppliesPerTick">10</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
 				<Data type="float" name="MaxBeamSpeed">20</Data>
 			</BaseDataLevel>
@@ -135,7 +135,7 @@
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="SuppliesPerTick">1.25</Data>
 				<Data type="float" name="SuppliesPerTickAttacking">5</Data>
-				<Data type="float" name="SuppliesPerJump">40</Data>
+				<Data type="float" name="SuppliesPerJump">10</Data>
 				<Data type="float" name="CommandInterval">0.100000001</Data>
 				<Data type="float" name="TeleportTime">0.300000012</Data>
 				<Data type="float" name="TeleportLateralDistance">5</Data>
@@ -177,16 +177,16 @@
 				<Data type="float" name="HealPerKillCombatValue">150</Data>
 				<Data type="float" name="SuppliesPerTick">1</Data>
 				<Data type="float" name="SuppliesPerTickAttacking">4</Data>
-				<Data type="float" name="SuppliesPerJump">30</Data>
+				<Data type="float" name="SuppliesPerJump">10</Data>
 				<Data type="float" name="NudgeMultiplier">1.5</Data>
 				<Data type="float" name="DamageTakenMultiplier">1.75</Data>
 			</DataLevel>
 			<DataLevel level="3">
-				<Data type="float" name="SpeedMultiplier">2</Data>
-				<Data type="float" name="HealPerKillCombatValue">150</Data>
+				<Data type="float" name="SpeedMultiplier">3</Data>
+				<Data type="float" name="HealPerKillCombatValue">350</Data>
 				<Data type="float" name="SuppliesPerTick">1</Data>
-				<Data type="float" name="SuppliesPerTickAttacking">4</Data>
-				<Data type="float" name="SuppliesPerJump">30</Data>
+				<Data type="float" name="SuppliesPerTickAttacking">10</Data>
+				<Data type="float" name="SuppliesPerJump">10</Data>
 				<Data type="float" name="AuraRadius">60</Data>
 				<Data type="float" name="AuraDamageBonus">1.25</Data>
 				<Data type="float" name="NudgeMultiplier">1.75</Data>
@@ -212,7 +212,7 @@
 			<CameraEffectOut>WavePowerToNormal</CameraEffectOut>
 			<BaseDataLevel>
 				<Data type="float" name="TickLength">0.200000003</Data>
-				<Data type="float" name="SuppliesPerTick">30</Data>
+				<Data type="float" name="SuppliesPerTick">10</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
 				<Data type="float" name="HintTime">1</Data>
 				<Data type="float" name="MinBallDistance">0</Data>

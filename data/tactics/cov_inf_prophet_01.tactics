@@ -34,7 +34,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>plasmaCannon</Name>
-		<AttackRate>1</AttackRate>
+		<AttackRate>2</AttackRate>
 		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_01</Projectile>

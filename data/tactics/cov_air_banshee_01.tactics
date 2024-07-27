@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaCannon</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>90</DamagePerSecond>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_03</Projectile>
 		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
@@ -18,8 +18,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>FuelRodCannon</Name>
-		<AttackRate>4</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>BansheeFuelRod</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -153,6 +153,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Flying</TargetType>
 			<Action>PlasmaCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaCannon</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>70</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
@@ -18,10 +18,6 @@
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaMortar</Name>
@@ -185,6 +181,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>Flying</TargetType>
 			<Action>PlasmaCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

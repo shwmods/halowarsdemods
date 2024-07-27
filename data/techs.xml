@@ -4673,7 +4673,7 @@
 			<Effect type="Data" amount="1.25" subtype="AmmoRegenRate" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1200" subtype="Shieldpoints" relativity="Absolute">
+			<Effect type="Data" amount="2200" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">

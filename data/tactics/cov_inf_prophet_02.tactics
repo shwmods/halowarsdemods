@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>FuelRodCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>fx_proj_prophetFuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>

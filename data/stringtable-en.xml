@@ -312,7 +312,7 @@
 		<String _locID="1160" category="Techs" subtitle="false">MISSILE LAUNCHER</String>
 		<String _locID="1161" category="Techs" subtitle="false">Adds bonus Anti-Air attack to the Turret.</String>
 		<String _locID="1162" category="Techs" subtitle="false">REINFORCEMENTS</String>
-		<String _locID="1163" category="Techs" subtitle="false">Adds +10 to the population cap of your army.</String>
+		<String _locID="1163" category="Techs" subtitle="false">Adds +80 to the population cap of your army.</String>
 		<String _locID="1164" category="Techs" subtitle="false">AUTOCANNONS</String>
 		<String _locID="1165" category="Techs" subtitle="false">Adds front-firing 35mm guns, improving the Chopper's attack.</String>
 		<String _locID="1166" category="Techs" subtitle="false">STABILIZERS</String>
@@ -322,7 +322,7 @@
 		<String _locID="1170" category="Techs" subtitle="false">JUMP PACK ABILITY</String>
 		<String _locID="1171" category="Techs" subtitle="false">Enables the Jump Pack Ability, allowing Brutes to quickly cross the battlefield.</String>
 		<String _locID="1172" category="Techs" subtitle="false">FOLLOWERS</String>
-		<String _locID="1173" category="Techs" subtitle="false">Increases the maximum size of your army by 10.</String>
+		<String _locID="1173" category="Techs" subtitle="false">Increases the maximum size of your army by 80.</String>
 		<String _locID="1174" category="Techs" subtitle="false" />
 		<String _locID="1175" category="Techs" subtitle="false" />
 		<String _locID="3000" category="Squads" subtitle="false">MARINE</String>

@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>120</DamagePerSecond>
+		<DamagePerSecond>220</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
@@ -23,7 +23,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<WeaponType>WarthogRam</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>40</AOERadius>

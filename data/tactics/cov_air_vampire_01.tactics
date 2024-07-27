@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaCannonLeft</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_plasmaCannon_01</Projectile>
-		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
-		<MaxVelocityLead>16</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<Hardpoint>PlasmaTurretLeft</Hardpoint>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
-		<MovingMaxDeviation>4.5</MovingMaxDeviation>
-		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="Flying">10</TargetPriority>
-		<TargetPriority type="Infantry">4</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="TurretBuilding">0</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>PlasmaCannonRight</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_plasmaCannon_01</Projectile>
-		<ImpactEffect size="Medium">cov_plasmacannon_01</ImpactEffect>
-		<MaxVelocityLead>16</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<Hardpoint>PlasmaTurretRight</Hardpoint>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>0.0500000007</MovingAccuracy>
-		<MovingMaxDeviation>4.5</MovingMaxDeviation>
-		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
-		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
-		<TargetPriority type="Flying">10</TargetPriority>
-		<TargetPriority type="Infantry">4</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="TurretBuilding">0</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
-	</Weapon>
-	<Weapon>
 		<Name>HeavyNeedler</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>70</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_heavyNeedler_01</Projectile>
 		<ImpactEffect size="Medium">cov_heavyneedler_01</ImpactEffect>
@@ -73,7 +29,7 @@
 	<Weapon>
 		<Name>StasisDrainBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>30</DamagePerSecond>
+		<DamagePerSecond>10</DamagePerSecond>
 		<Stasis SmartTargeting="true" />
 		<StasisDrain />
 		<StasisHealToDrainRatio>1</StasisHealToDrainRatio>
@@ -91,7 +47,7 @@
 	<Weapon>
 		<Name>StasisBombBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>30</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<Stasis SmartTargeting="true" />
 		<StasisDrain />
 		<StasisBomb />
@@ -125,22 +81,6 @@
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 	</Weapon>
-	<Action>
-		<Name>PlasmaCannonRightAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
-		<Anim>PlasmaCannonRightAttack</Anim>
-		<Weapon>PlasmaCannonRight</Weapon>
-		<MainAttack />
-	</Action>
-	<Action>
-		<Name>PlasmaCannonLeftAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
-		<Anim>PlasmaCannonLeftAttack</Anim>
-		<Weapon>PlasmaCannonLeft</Weapon>
-		<MainAttack />
-	</Action>
 	<Action>
 		<Name>HeavyNeedlerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -237,14 +177,6 @@
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>HeavyNeedlerAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>PlasmaCannonRightAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>PlasmaCannonLeftAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

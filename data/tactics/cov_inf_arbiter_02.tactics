@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>DualSword</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>240</DamagePerSecond>
+		<DamagePerSecond>440</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>

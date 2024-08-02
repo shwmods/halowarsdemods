@@ -29,8 +29,8 @@
 	<Weapon>
 		<Name>OverburnBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
-		<DPSRamp startDPSPercent="50" finalDPSPercent="250" rampTime="15.0f" shieldDrain="true" />
+		<DamagePerSecond>350</DamagePerSecond>
+		<DPSRamp startDPSPercent="50" finalDPSPercent="350" rampTime="15.0f" shieldDrain="true" />
 		<WeaponType>Beam</WeaponType>
 		<Projectile>fx_proj_overdrivebeam_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>

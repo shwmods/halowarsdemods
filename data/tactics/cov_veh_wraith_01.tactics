@@ -22,7 +22,7 @@
 	<Weapon>
 		<Name>PlasmaMortar</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>110</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_01</Projectile>
 		<ImpactEffect size="Medium">cov_plasmamortar_01</ImpactEffect>
@@ -55,7 +55,7 @@
 	<Weapon>
 		<Name>PlasmaBurnMortar</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>110</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<UseDPSasDPA />
 		<Reapply>0.25</Reapply>
 		<Apply>3</Apply>

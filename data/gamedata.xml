@@ -18,11 +18,11 @@
 	<LeaderPowerChargeResource>LeaderPowerCharge</LeaderPowerChargeResource>
 	<LeaderPowerChargeRate>LeaderPowerCharge</LeaderPowerChargeRate>
 	<DifficultyEasy>0</DifficultyEasy>
-	<DifficultyNormal>0.340000004</DifficultyNormal>
-	<DifficultyHard>0.670000017</DifficultyHard>
-	<DifficultyLegendary>1</DifficultyLegendary>
-	<DifficultyDefault>0.400000006</DifficultyDefault>
-	<DifficultySPCAIDefault>0.5</DifficultySPCAIDefault>
+	<DifficultyNormal>0.7</DifficultyNormal>
+	<DifficultyHard>1</DifficultyHard>
+	<DifficultyLegendary>1.4</DifficultyLegendary>
+	<DifficultyDefault>0.6</DifficultyDefault>
+	<DifficultySPCAIDefault>0.6</DifficultySPCAIDefault>
 	<Pops>
 		<Pop>Unit</Pop>
 		<Pop>Temple</Pop>

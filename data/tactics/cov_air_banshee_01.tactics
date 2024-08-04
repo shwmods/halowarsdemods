@@ -18,14 +18,14 @@
 	</Weapon>
 	<Weapon>
 		<Name>FuelRodCannon</Name>
-		<AttackRate>3</AttackRate>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>BansheeFuelRod</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>8</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<Accuracy>0.200000003</Accuracy>
+		<Accuracy>0.4</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
 		<MovingAccuracy>0.100000001</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>

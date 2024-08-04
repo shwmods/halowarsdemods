@@ -9681,7 +9681,7 @@
 		<Velocity>12</Velocity>
 		<Acceleration>27.5</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>3903</Hitpoints>
+		<Hitpoints>3000</Hitpoints>
 		<Shieldpoints>0</Shieldpoints>
 		<AttackGradeDPS>97.5</AttackGradeDPS>
 		<CombatValue>5</CombatValue>
@@ -10840,9 +10840,9 @@
 		<DisplayNameID>10158</DisplayNameID>
 		<RolloverTextID>10159</RolloverTextID>
 		<MovementType>Land</MovementType>
-		<Velocity>10</Velocity>
+		<Velocity>12</Velocity>
 		<TurnRate>180</TurnRate>
-		<Shieldpoints>4000</Shieldpoints>
+		<Shieldpoints>5000</Shieldpoints>
 		<Hitpoints>1000</Hitpoints>
 		<AttackGradeDPS>252</AttackGradeDPS>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
@@ -11154,7 +11154,7 @@
 		<Velocity>35</Velocity>
 		<ReverseSpeed>0.0f</ReverseSpeed>
 		<TurnRate>180</TurnRate>
-		<Hitpoints>1800</Hitpoints>
+		<Hitpoints>2000</Hitpoints>
 		<AttackGradeDPS>132</AttackGradeDPS>
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>

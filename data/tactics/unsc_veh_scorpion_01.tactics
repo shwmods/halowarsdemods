@@ -4,14 +4,13 @@
 		<Name>Machinegun</Name>
 		<AttackRate>0.75</AttackRate>
 		<DamagePerSecond>175</DamagePerSecond>
-		<WeaponType>AASmallArms</WeaponType>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.1000000007</MovingAccuracy>
 		<MovingAccuracy>0.1000000007</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
@@ -83,7 +82,8 @@
 		<PhysicsForceMax>600</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetsFootOfUnit />
-		<Dodgeable />Q</Weapon>
+		<Dodgeable />
+	</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>

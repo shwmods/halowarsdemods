@@ -605,7 +605,7 @@
 	<Power name="UnscOdstDrop">
 		<Attributes>
 			<PowerType>ODST</PowerType>
-			<Cost Supplies="300" Power="4" />
+			<Cost Supplies="250" Power="4" />
 			<Pop type="Unit">1</Pop>
 			<AutoRecharge>10000</AutoRecharge>
 			<SequentialRecharge />

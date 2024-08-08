@@ -96,8 +96,8 @@
 		<RolloverTextID>3031</RolloverTextID>
 		<PrereqTextID>236</PrereqTextID>
 		<RoleTextID>508</RoleTextID>
-		<BuildPoints>60</BuildPoints>
-		<Cost resourcetype="Supplies">900</Cost>
+		<BuildPoints>35</BuildPoints>
+		<Cost resourcetype="Supplies">700</Cost>
 		<Cost resourcetype="Power">4</Cost>
 		<SubSelectSort>7200</SubSelectSort>
 		<LeashDistance>15</LeashDistance>

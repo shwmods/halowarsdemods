@@ -18,6 +18,8 @@
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>MGTurret</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -49,6 +51,7 @@
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Dodgeable />
 		<Deflectable />
@@ -58,7 +61,7 @@
 		<AttackRate>30</AttackRate>
 		<DamagePerSecond>2500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Explosive</WeaponType>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
 		<ImpactEffect size="Medium">canisterblast</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -86,25 +89,24 @@
 	</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
+		<ActionType>SlaveTurretAttack</ActionType>
 		<Anim>CannonAttack</Anim>
 		<Weapon>Cannon</Weapon>
-		<MainAttack />
 	</Action>
 	<Action>
 		<Name>MachinegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MachinegunAttack</Anim>
 		<Weapon>Machinegun</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
 		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
 		<PersistBetweenOpps />
-		<FindBetterAction />
 		<MainAttack />
 	</Action>
 	<Action>
 		<Name>specialAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SpecialCannonAttack</Anim>
+		<Anim>MachinegunAttack</Anim>
 		<Weapon>specialAttack</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
@@ -155,15 +157,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
-			<TargetType>Infantry</TargetType>
-			<TargetType>Flying</TargetType>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>CannonAttackAction</Action>
-			<TargetType>GroundVehicle</TargetType>
-			<TargetType>Building</TargetType>
-			<TargetType>TurretBuilding</TargetType>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

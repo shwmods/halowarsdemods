@@ -49,6 +49,7 @@
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Dodgeable />
 		<Deflectable />
@@ -86,19 +87,18 @@
 	</Weapon>
 	<Action>
 		<Name>CannonAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
+		<ActionType>SlaveTurretAttack</ActionType>
 		<Anim>CannonAttack</Anim>
 		<Weapon>Cannon</Weapon>
-		<MainAttack />
 	</Action>
 	<Action>
 		<Name>MachinegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MachinegunAttack</Anim>
 		<Weapon>Machinegun</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
 		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
 		<PersistBetweenOpps />
-		<FindBetterAction />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -155,15 +155,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MachinegunAttackAction</Action>
-			<TargetType>Infantry</TargetType>
-			<TargetType>Flying</TargetType>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>CannonAttackAction</Action>
-			<TargetType>GroundVehicle</TargetType>
-			<TargetType>Building</TargetType>
-			<TargetType>TurretBuilding</TargetType>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>

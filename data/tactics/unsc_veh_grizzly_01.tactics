@@ -18,6 +18,8 @@
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>MGTurret</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -59,7 +61,7 @@
 		<AttackRate>30</AttackRate>
 		<DamagePerSecond>2500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Explosive</WeaponType>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
 		<ImpactEffect size="Medium">canisterblast</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -104,7 +106,7 @@
 	<Action>
 		<Name>specialAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SpecialCannonAttack</Anim>
+		<Anim>MachinegunAttack</Anim>
 		<Weapon>specialAttack</Weapon>
 		<MainAttack />
 		<DontLoopAttackAnim />
